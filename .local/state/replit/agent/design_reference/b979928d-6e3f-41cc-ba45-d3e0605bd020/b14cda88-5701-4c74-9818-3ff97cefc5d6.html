@@ -1,0 +1,564 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeNode.AI - Sistemas de Automação e Inteligência para PMEs</title>
+    <meta name="description" content="A CodeNode desenvolve sistemas sob medida para PMEs, com ou sem Inteligência Artificial embarcada, sempre focados em eficiência, simplicidade e resultados reais.">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    primary: '#1e40af',
+                    secondary: '#475569',
+                    accent: '#3b82f6',
+                    muted: '#64748b',
+                    light: '#f8fafc'
+                },
+                fontFamily: {
+                    'inter': ['Inter', 'system-ui', 'sans-serif']
+                }
+            }
+        }
+    };
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="font-inter bg-white text-gray-900">
+    
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <div class="text-2xl font-bold text-primary">
+                        <i class="fas fa-code mr-2"></i>CodeNode.AI
+                    </div>
+                </div>
+                
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#sobre" class="text-secondary hover:text-primary transition-colors duration-200">Sobre</a>
+                    <a href="#como-funciona" class="text-secondary hover:text-primary transition-colors duration-200">Como Funciona</a>
+                    <a href="#faq" class="text-secondary hover:text-primary transition-colors duration-200">FAQ</a>
+                    <a href="#contato" class="text-secondary hover:text-primary transition-colors duration-200">Contato</a>
+                </nav>
+                
+                <div class="flex items-center space-x-4">
+                    <a href="#contato" class="bg-accent hover:bg-primary text-white px-6 py-2 rounded-lg font-medium transition-colors duration-200">
+                        Entre em contato
+                    </a>
+                    <button class="md:hidden text-secondary" id="mobile-menu-button">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidden bg-white border-t border-gray-100" id="mobile-menu">
+            <div class="px-4 py-3 space-y-3">
+                <a href="#sobre" class="block text-secondary hover:text-primary">Sobre</a>
+                <a href="#como-funciona" class="block text-secondary hover:text-primary">Como Funciona</a>
+                <a href="#faq" class="block text-secondary hover:text-primary">FAQ</a>
+                <a href="#contato" class="block text-secondary hover:text-primary">Contato</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-light to-white py-16 lg:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
+                <div class="mb-10 lg:mb-0">
+                    <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+                        Sistemas de automação e inteligência para <span class="text-primary">pequenas e médias empresas</span>.
+                    </h1>
+                    <p class="text-xl text-muted mb-8 leading-relaxed">
+                        A CodeNode desenvolve sistemas sob medida para PMEs, com ou sem Inteligência Artificial embarcada, sempre focados em eficiência, simplicidade e resultados reais.
+                    </p>
+                    <a href="#como-funciona" class="inline-flex items-center bg-accent hover:bg-primary text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+                        👉 Quero conhecer a metodologia
+                    </a>
+                </div>
+                <div class="relative">
+                    <!-- Modern business automation technology concept -->
+                    <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" alt="Business automation technology" class="rounded-2xl shadow-2xl w-full h-auto" />
+                    <div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+                            <span class="text-sm font-medium text-gray-700">Sistema ativo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre a CodeNode -->
+    <section id="sobre" class="py-16 lg:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
+                <div class="mb-10 lg:mb-0">
+                    <!-- Small and medium enterprise office environment -->
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" alt="Small and medium enterprise office" class="rounded-2xl shadow-lg w-full h-auto" />
+                </div>
+                <div>
+                    <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">Sobre a CodeNode</h2>
+                    <div class="space-y-6 text-lg text-muted leading-relaxed">
+                        <p>
+                            Na CodeNode acreditamos que tecnologia só faz sentido quando resolve problemas de verdade. Por isso, nossa missão é ajudar pequenas e médias empresas a modernizar seus processos através de sistemas desenvolvidos sob medida.
+                        </p>
+                        <p>
+                            Não empurramos soluções prontas nem seguimos modismos: entendemos sua realidade, analisamos seus processos e entregamos exatamente o que vai gerar mais impacto no seu negócio.
+                        </p>
+                    </div>
+                    
+                    <div class="mt-10 space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-8 h-8 bg-accent/10 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                                <i class="fas fa-cog text-accent"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-900 mb-1">Personalização</h3>
+                                <p class="text-muted">Cada sistema é feito de acordo com a sua necessidade.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="w-8 h-8 bg-accent/10 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                                <i class="fas fa-rocket text-accent"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-900 mb-1">Tecnologia acessível</h3>
+                                <p class="text-muted">Soluções viáveis, sem complicações desnecessárias.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="w-8 h-8 bg-accent/10 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                                <i class="fas fa-target text-accent"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-900 mb-1">Foco em resultados</h3>
+                                <p class="text-muted">Não importa a moda do momento, importa o que funciona para você.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Como Funciona -->
+    <section id="como-funciona" class="py-16 lg:py-24 bg-light">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Como Funciona</h2>
+                <p class="text-xl text-muted max-w-2xl mx-auto">Metodologia CodeNode</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8 lg:gap-12">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-accent rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-handshake text-white text-2xl"></i>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-lg h-full">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4">Passo 1 – Entendimento do negócio</h3>
+                        <p class="text-muted leading-relaxed">Conversamos com você para mapear processos, desafios e objetivos.</p>
+                    </div>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-accent rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-search text-white text-2xl"></i>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-lg h-full">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4">Passo 2 – Análise personalizada</h3>
+                        <p class="text-muted leading-relaxed">Identificamos onde a automação e a inteligência podem gerar mais valor (e se realmente fazem sentido).</p>
+                    </div>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-accent rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-tools text-white text-2xl"></i>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-lg h-full">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4">Passo 3 – Implementação sob medida</h3>
+                        <p class="text-muted leading-relaxed">Desenvolvemos e entregamos o sistema certo para sua empresa, acompanhando de perto a evolução.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Por que escolher -->
+    <section class="py-16 lg:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
+                <div class="mb-10 lg:mb-0">
+                    <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">Por que escolher a CodeNode?</h2>
+                    <p class="text-xl text-muted mb-10 leading-relaxed">
+                        Sabemos que pequenas e médias empresas enfrentam desafios diferentes das grandes corporações. É por isso que a CodeNode foi criada: para ser parceira estratégica no uso da tecnologia de forma prática e personalizada.
+                    </p>
+                    
+                    <div class="grid sm:grid-cols-2 gap-6">
+                        <div class="bg-light p-6 rounded-xl">
+                            <div class="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
+                                <i class="fas fa-building text-accent text-xl"></i>
+                            </div>
+                            <h3 class="font-semibold text-gray-900 mb-2">Feito para PMEs</h3>
+                            <p class="text-muted text-sm">Entendemos suas prioridades e seu ritmo.</p>
+                        </div>
+                        
+                        <div class="bg-light p-6 rounded-xl">
+                            <div class="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
+                                <i class="fas fa-puzzle-piece text-accent text-xl"></i>
+                            </div>
+                            <h3 class="font-semibold text-gray-900 mb-2">Soluções sob medida</h3>
+                            <p class="text-muted text-sm">Não vendemos pacotes genéricos, mas sistemas adaptados à sua realidade.</p>
+                        </div>
+                        
+                        <div class="bg-light p-6 rounded-xl">
+                            <div class="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
+                                <i class="fas fa-chart-line text-accent text-xl"></i>
+                            </div>
+                            <h3 class="font-semibold text-gray-900 mb-2">Resultados práticos</h3>
+                            <p class="text-muted text-sm">O objetivo é otimizar processos e reduzir desperdícios.</p>
+                        </div>
+                        
+                        <div class="bg-light p-6 rounded-xl">
+                            <div class="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
+                                <i class="fas fa-expand-arrows-alt text-accent text-xl"></i>
+                            </div>
+                            <h3 class="font-semibold text-gray-900 mb-2">Escalabilidade</h3>
+                            <p class="text-muted text-sm">Começamos simples e crescemos junto com o seu negócio.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <!-- Professional software development team at work -->
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" alt="Professional software development team" class="rounded-2xl shadow-lg w-full h-auto" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-16 lg:py-24 bg-light">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Perguntas Frequentes</h2>
+                <p class="text-xl text-muted">Esclarecemos suas principais dúvidas</p>
+            </div>
+            
+            <div class="space-y-4">
+                <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+                    <button class="faq-button w-full text-left p-6 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-inset" data-target="faq-1">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-lg font-semibold text-gray-900">Preciso ter conhecimento técnico para usar um sistema da CodeNode?</h3>
+                            <i class="fas fa-chevron-down text-muted transition-transform duration-200"></i>
+                        </div>
+                    </button>
+                    <div id="faq-1" class="faq-content hidden px-6 pb-6">
+                        <p class="text-muted leading-relaxed">Não. Nossos sistemas são desenvolvidos para serem simples, claros e fáceis de usar no dia a dia.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+                    <button class="faq-button w-full text-left p-6 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-inset" data-target="faq-2">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-lg font-semibold text-gray-900">Quanto tempo leva para implementar um sistema?</h3>
+                            <i class="fas fa-chevron-down text-muted transition-transform duration-200"></i>
+                        </div>
+                    </button>
+                    <div id="faq-2" class="faq-content hidden px-6 pb-6">
+                        <p class="text-muted leading-relaxed">Depende da complexidade do projeto, mas sempre buscamos entregas rápidas e funcionais desde as primeiras etapas.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+                    <button class="faq-button w-full text-left p-6 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-inset" data-target="faq-3">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-lg font-semibold text-gray-900">E se eu não precisar de IA agora?</h3>
+                            <i class="fas fa-chevron-down text-muted transition-transform duration-200"></i>
+                        </div>
+                    </button>
+                    <div id="faq-3" class="faq-content hidden px-6 pb-6">
+                        <p class="text-muted leading-relaxed">Sem problema. Podemos desenvolver sistemas apenas de automação. A IA só entra quando faz sentido para o seu negócio.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+                    <button class="faq-button w-full text-left p-6 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-inset" data-target="faq-4">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-lg font-semibold text-gray-900">Posso evoluir o sistema no futuro?</h3>
+                            <i class="fas fa-chevron-down text-muted transition-transform duration-200"></i>
+                        </div>
+                    </button>
+                    <div id="faq-4" class="faq-content hidden px-6 pb-6">
+                        <p class="text-muted leading-relaxed">Sim. Nossos sistemas são pensados para crescer junto com sua empresa.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+                    <button class="faq-button w-full text-left p-6 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-inset" data-target="faq-5">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-lg font-semibold text-gray-900">Quem mantém o sistema funcionando?</h3>
+                            <i class="fas fa-chevron-down text-muted transition-transform duration-200"></i>
+                        </div>
+                    </button>
+                    <div id="faq-5" class="faq-content hidden px-6 pb-6">
+                        <p class="text-muted leading-relaxed">Nós oferecemos suporte e manutenção contínua para que tudo funcione de forma estável e segura.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="py-16 lg:py-24 bg-primary">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
+                <div class="mb-10 lg:mb-0">
+                    <!-- Business process optimization workflow visualization -->
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" alt="Business process optimization" class="rounded-2xl shadow-2xl w-full h-auto" />
+                </div>
+                <div class="text-left">
+                    <h2 class="text-3xl lg:text-4xl font-bold text-white mb-6">
+                        Está na hora de modernizar seu negócio
+                    </h2>
+                    <p class="text-xl text-blue-100 mb-8 leading-relaxed">
+                        Entre em contato com a CodeNode e descubra como um sistema personalizado pode transformar seus processos.
+                    </p>
+                    <a href="#contato" class="inline-flex items-center bg-white hover:bg-gray-100 text-primary px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 shadow-lg">
+                        👉 Entre em contato
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="py-16 lg:py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Entre em Contato</h2>
+                <p class="text-xl text-muted">Vamos conversar sobre seu projeto</p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-6">Fale conosco</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-envelope text-accent"></i>
+                            </div>
+                            <div>
+                                <p class="font-medium text-gray-900">E-mail</p>
+                                <a href="mailto:contato@codenode.com.br" class="text-accent hover:text-primary">contato@codenode.com.br</a>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center">
+                                <i class="fab fa-whatsapp text-accent"></i>
+                            </div>
+                            <div>
+                                <p class="font-medium text-gray-900">WhatsApp</p>
+                                <a href="https://wa.me/5548999999999" class="text-accent hover:text-primary">+55 (48) 9 XXXX-XXXX</a>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center">
+                                <i class="fab fa-instagram text-accent"></i>
+                            </div>
+                            <div>
+                                <p class="font-medium text-gray-900">Instagram</p>
+                                <a href="https://instagram.com/codenode.ai" class="text-accent hover:text-primary">@codenode.ai</a>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center">
+                                <i class="fab fa-linkedin text-accent"></i>
+                            </div>
+                            <div>
+                                <p class="font-medium text-gray-900">LinkedIn</p>
+                                <a href="https://linkedin.com/company/codenode-ai" class="text-accent hover:text-primary">CodeNode.AI</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <form class="space-y-6" id="contact-form">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Nome completo</label>
+                            <input type="text" id="name" name="name" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent focus:border-transparent" placeholder="Seu nome">
+                        </div>
+                        
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-2">E-mail</label>
+                            <input type="email" id="email" name="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent focus:border-transparent" placeholder="seu@email.com">
+                        </div>
+                        
+                        <div>
+                            <label for="company" class="block text-sm font-medium text-gray-700 mb-2">Empresa</label>
+                            <input type="text" id="company" name="company" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent focus:border-transparent" placeholder="Nome da sua empresa">
+                        </div>
+                        
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Mensagem</label>
+                            <textarea id="message" name="message" rows="4" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent focus:border-transparent" placeholder="Conte-nos sobre seu projeto..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full bg-accent hover:bg-primary text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-200">
+                            Enviar mensagem
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="lg:col-span-2">
+                    <div class="text-2xl font-bold text-white mb-4">
+                        <i class="fas fa-code mr-2"></i>CodeNode.AI
+                    </div>
+                    <p class="text-gray-300 mb-6 max-w-md">
+                        "Sistemas que simplificam processos e potencializam resultados."
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="https://instagram.com/codenode.ai" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-accent transition-colors duration-200">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://linkedin.com/company/codenode-ai" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-accent transition-colors duration-200">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://wa.me/5548999999999" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-accent transition-colors duration-200">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="font-semibold text-white mb-4">Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#sobre" class="text-gray-300 hover:text-white transition-colors duration-200">Sobre</a></li>
+                        <li><a href="#como-funciona" class="text-gray-300 hover:text-white transition-colors duration-200">Como Funciona</a></li>
+                        <li><a href="#faq" class="text-gray-300 hover:text-white transition-colors duration-200">FAQ</a></li>
+                        <li><a href="#contato" class="text-gray-300 hover:text-white transition-colors duration-200">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="font-semibold text-white mb-4">Contato</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li>contato@codenode.com.br</li>
+                        <li>+55 (48) 9 XXXX-XXXX</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center">
+                <p class="text-gray-400">© 2024 CodeNode.AI. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        (function() {
+            // Mobile menu toggle
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', function() {
+                    mobileMenu.classList.toggle('hidden');
+                });
+            }
+            
+            // FAQ accordion functionality
+            const faqButtons = document.querySelectorAll('.faq-button');
+            
+            faqButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const target = this.getAttribute('data-target');
+                    const content = document.getElementById(target);
+                    const icon = this.querySelector('i');
+                    
+                    if (content) {
+                        // Close all other FAQ items
+                        faqButtons.forEach(otherButton => {
+                            if (otherButton !== this) {
+                                const otherTarget = otherButton.getAttribute('data-target');
+                                const otherContent = document.getElementById(otherTarget);
+                                const otherIcon = otherButton.querySelector('i');
+                                
+                                if (otherContent && !otherContent.classList.contains('hidden')) {
+                                    otherContent.classList.add('hidden');
+                                    otherIcon.style.transform = 'rotate(0deg)';
+                                }
+                            }
+                        });
+                        
+                        // Toggle current FAQ item
+                        content.classList.toggle('hidden');
+                        
+                        if (content.classList.contains('hidden')) {
+                            icon.style.transform = 'rotate(0deg)';
+                        } else {
+                            icon.style.transform = 'rotate(180deg)';
+                        }
+                    }
+                });
+            });
+            
+            // Smooth scrolling for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                        
+                        // Close mobile menu if open
+                        if (mobileMenu && !mobileMenu.classList.contains('hidden')) {
+                            mobileMenu.classList.add('hidden');
+                        }
+                    }
+                });
+            });
+            
+            // Contact form handling
+            const contactForm = document.getElementById('contact-form');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // TODO: Implement form submission logic here
+                    // This would typically send data to a backend service
+                    
+                    // Show success message (mockup behavior)
+                    alert('Obrigado! Entraremos em contato em breve.');
+                    
+                    // Reset form
+                    this.reset();
+                });
+            }
+        })();
+    </script>
+</body>
+</html>
