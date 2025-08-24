@@ -29,11 +29,7 @@ export default function AboutSection() {
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <p className="text-lg text-muted-gray leading-relaxed" data-testid="about-text-1">
-                Na CodeNode acreditamos que tecnologia só faz sentido quando resolve problemas de verdade. Por isso, nossa missão é ajudar pequenas e médias empresas a modernizar seus processos através de sistemas desenvolvidos sob medida.
-              </p>
-              
-              <p className="text-lg text-muted-gray leading-relaxed" data-testid="about-text-2">
-                Não empurramos soluções prontas nem seguimos modismos: entendemos sua realidade, analisamos seus processos e entregamos exatamente o que vai gerar mais impacto no seu negócio.
+                Na CodeNode acreditamos que toda empresa pode crescer mais quando elimina processos manuais e ineficientes. Nossa missão é automatizar tarefas repetitivas e implementar sistemas inteligentes que reduzam custos e aumentem a produtividade das pequenas e médias empresas.
               </p>
             </motion.div>
             
@@ -50,7 +46,7 @@ export default function AboutSection() {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold mb-2">Personalização</h3>
-                    <p className="text-muted-gray">Cada sistema é feito de acordo com a sua necessidade.</p>
+                    <p className="text-muted-gray">Cada sistema é desenvolvido sob medida.</p>
                   </div>
                 </div>
               </div>
@@ -61,8 +57,8 @@ export default function AboutSection() {
                     <Rocket className="text-tech-green" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold mb-2">Tecnologia acessível</h3>
-                    <p className="text-muted-gray">Soluções viáveis, sem complicações desnecessárias.</p>
+                    <h3 className="text-xl font-semibold mb-2">Redução de custos</h3>
+                    <p className="text-muted-gray">Eliminamos desperdícios causados por processos manuais.</p>
                   </div>
                 </div>
               </div>
@@ -73,8 +69,8 @@ export default function AboutSection() {
                     <Target className="text-tech-purple" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold mb-2">Foco em resultados</h3>
-                    <p className="text-muted-gray">Não importa a moda do momento, importa o que funciona para você.</p>
+                    <h3 className="text-xl font-semibold mb-2">Foco em eficiência</h3>
+                    <p className="text-muted-gray">Sistemas claros, simples e que realmente funcionam.</p>
                   </div>
                 </div>
               </div>

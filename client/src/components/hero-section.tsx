@@ -56,7 +56,7 @@ export default function HeroSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             data-testid="hero-subtitle"
           >
-            A CodeNode desenvolve sistemas sob medida para PMEs, com ou sem Inteligência Artificial embarcada, sempre focados em eficiência, simplicidade e resultados reais.
+            A CodeNode desenvolve sistemas sob medida para PMEs, com ou sem Inteligência Artificial embarcada, sempre com foco em reduzir custos de processos manuais e ineficientes, aumentando a eficiência e os resultados do negócio.
           </motion.p>
           
           <motion.div

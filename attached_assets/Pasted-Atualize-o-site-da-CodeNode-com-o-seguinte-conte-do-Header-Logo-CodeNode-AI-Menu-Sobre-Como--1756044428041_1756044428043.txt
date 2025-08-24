@@ -1,0 +1,103 @@
+Atualize o site da CodeNode com o seguinte conteúdo:
+
+Header
+
+Logo: CodeNode.AI
+
+Menu: Sobre | Como Funciona | FAQ | Contato
+
+Botão: Entre em contato (link para WhatsApp: https://wa.me/554891974158)
+
+Hero Section
+
+Título (headline):
+Sistemas de automação e inteligência para pequenas e médias empresas.
+
+Subtítulo (subheadline):
+A CodeNode desenvolve sistemas sob medida para PMEs, com ou sem Inteligência Artificial embarcada, sempre com foco em reduzir custos de processos manuais e ineficientes, aumentando a eficiência e os resultados do negócio.
+
+CTA (botão):
+👉 Quero conhecer a metodologia (link para seção “Como Funciona”)
+
+Seção: Sobre a CodeNode
+
+Texto principal:
+Na CodeNode acreditamos que toda empresa pode crescer mais quando elimina processos manuais e ineficientes. Nossa missão é automatizar tarefas repetitivas e implementar sistemas inteligentes que reduzam custos e aumentem a produtividade das pequenas e médias empresas.
+
+Destaques (bullet points):
+
+Personalização: cada sistema é desenvolvido sob medida.
+
+Redução de custos: eliminamos desperdícios causados por processos manuais.
+
+Foco em eficiência: sistemas claros, simples e que realmente funcionam.
+
+Seção: Como Funciona (Metodologia CodeNode)
+
+Passo 1 – Entendimento do negócio
+Mapeamos os processos atuais da empresa e identificamos gargalos.
+
+Passo 2 – Análise personalizada
+Avaliamos como sistemas e automação podem reduzir custos e otimizar resultados.
+
+Passo 3 – Implementação sob medida
+Desenvolvemos o sistema ideal para sua empresa e oferecemos suporte contínuo.
+
+Seção: Por que escolher a CodeNode?
+
+Texto introdutório:
+A CodeNode foi criada para ajudar pequenas e médias empresas a modernizar seus processos com tecnologia acessível. Nosso compromisso é entregar sistemas que realmente tragam retorno através da redução de custos e aumento da eficiência.
+
+Diferenciais em destaque:
+
+Foco em PMEs – entendemos sua realidade e prioridades.
+
+Soluções sob medida – sistemas que se adaptam ao seu contexto.
+
+Resultados concretos – menos custos, mais eficiência.
+
+Escalabilidade – começamos simples e evoluímos junto com sua empresa.
+
+Seção: FAQ (Perguntas Frequentes)
+
+Preciso ter conhecimento técnico para usar um sistema da CodeNode?
+Não. Nossos sistemas são simples e fáceis de usar no dia a dia.
+
+Quanto tempo leva para implementar um sistema?
+Depende da complexidade, mas sempre buscamos entregas rápidas e funcionais.
+
+E se eu não precisar de IA agora?
+Sem problema. Nossos sistemas podem ser apenas de automação. A IA só é aplicada quando faz sentido.
+
+Posso evoluir o sistema no futuro?
+Sim. Nossos sistemas são escaláveis e crescem junto com o seu negócio.
+
+Quem mantém o sistema funcionando?
+A CodeNode oferece suporte e manutenção contínua para garantir estabilidade e segurança.
+
+Seção: CTA Final
+
+Texto:
+Reduza custos e aumente a eficiência do seu negócio. Entre em contato com a CodeNode e descubra como um sistema personalizado pode transformar seus processos.
+
+Botão:
+👉 Entre em contato (link WhatsApp: https://wa.me/554891974158)
+
+Footer
+
+Logo: CodeNode.AI
+
+Frase de posicionamento:
+“Sistemas que simplificam processos e reduzem custos para pequenas e médias empresas.”
+
+Links de navegação: Sobre | Como Funciona | FAQ | Contato
+
+Contatos:
+
+E-mail: contato@codenode.com.br
+
+WhatsApp: +55 48 9197-4158 (link https://wa.me/554891974158)
+
+Instagram: https://www.instagram.com/codenode.ai/
+
+LinkedIn: https://www.linkedin.com/in/codenode-ai-7b4515380/

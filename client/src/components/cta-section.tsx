@@ -27,7 +27,7 @@ export default function CTASection() {
             data-testid="cta-title"
           >
             <span className="bg-gradient-to-r from-white to-tech-blue bg-clip-text text-transparent">
-              Está na hora de modernizar seu negócio
+              Reduza custos e aumente a eficiência do seu negócio
             </span>
           </motion.h2>
           
@@ -47,7 +47,7 @@ export default function CTASection() {
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             <Button 
-              onClick={scrollToContact}
+              onClick={() => window.open('https://wa.me/554891974158', '_blank')}
               className="bg-gradient-to-r from-tech-blue to-tech-purple px-10 py-4 rounded-full text-xl font-semibold hover:shadow-2xl hover:shadow-tech-blue/30 transition-all duration-300 transform hover:scale-105 animate-glow"
               data-testid="button-cta-contact"
             >

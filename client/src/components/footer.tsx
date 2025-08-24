@@ -24,7 +24,7 @@ export default function Footer() {
                 </span>
               </div>
               <p className="text-muted-gray italic max-w-md" data-testid="footer-tagline">
-                "Sistemas que simplificam processos e potencializam resultados."
+                "Sistemas que simplificam processos e reduzem custos para pequenas e médias empresas."
               </p>
             </div>
             
@@ -63,7 +63,7 @@ export default function Footer() {
               
               <div className="flex space-x-4" data-testid="footer-social">
                 <a 
-                  href="https://instagram.com/codenode.ai"
+                  href="https://www.instagram.com/codenode.ai/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-dark-tertiary rounded-lg flex items-center justify-center hover:bg-tech-blue/20 transition-colors"
@@ -72,7 +72,7 @@ export default function Footer() {
                   <Instagram className="text-tech-purple" />
                 </a>
                 <a 
-                  href="https://linkedin.com/company/codenode-ai"
+                  href="https://www.linkedin.com/in/codenode-ai-7b4515380/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-dark-tertiary rounded-lg flex items-center justify-center hover:bg-tech-blue/20 transition-colors"

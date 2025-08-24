@@ -65,10 +65,10 @@ export default function ContactSection() {
     {
       icon: MessageSquare,
       title: "WhatsApp",
-      content: "+55 (48) 9 XXXX-XXXX",
+      content: "+55 48 9197-4158",
       color: "bg-tech-green/20",
       iconColor: "text-tech-green",
-      link: "https://wa.me/5548999999999"
+      link: "https://wa.me/554891974158"
     },
     {
       icon: Instagram,
@@ -76,7 +76,7 @@ export default function ContactSection() {
       content: "@codenode.ai",
       color: "bg-tech-purple/20",
       iconColor: "text-tech-purple",
-      link: "https://instagram.com/codenode.ai"
+      link: "https://www.instagram.com/codenode.ai/"
     },
     {
       icon: Linkedin,
@@ -84,7 +84,7 @@ export default function ContactSection() {
       content: "CodeNode.AI",
       color: "bg-tech-blue/20",
       iconColor: "text-tech-blue",
-      link: "https://linkedin.com/company/codenode-ai"
+      link: "https://www.linkedin.com/in/codenode-ai-7b4515380/"
     }
   ];
 

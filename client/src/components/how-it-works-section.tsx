@@ -8,19 +8,19 @@ export default function HowItWorksSection() {
     {
       number: "1",
       title: "Entendimento do negócio",
-      description: "Conversamos com você para mapear processos, desafios e objetivos.",
+      description: "Mapeamos os processos atuais da empresa e identificamos gargalos.",
       color: "from-tech-blue to-tech-purple"
     },
     {
       number: "2", 
       title: "Análise personalizada",
-      description: "Identificamos onde a automação e a inteligência podem gerar mais valor (e se realmente fazem sentido).",
+      description: "Avaliamos como sistemas e automação podem reduzir custos e otimizar resultados.",
       color: "from-tech-green to-tech-blue"
     },
     {
       number: "3",
       title: "Implementação sob medida", 
-      description: "Desenvolvemos e entregamos o sistema certo para sua empresa, acompanhando de perto a evolução.",
+      description: "Desenvolvemos o sistema ideal para sua empresa e oferecemos suporte contínuo.",
       color: "from-tech-purple to-tech-green"
     }
   ];

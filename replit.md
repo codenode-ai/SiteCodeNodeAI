@@ -1,6 +1,25 @@
 # Overview
 
-CodeNode.AI is a modern full-stack web application that serves as a marketing website for a technology consulting company specializing in automation systems and AI solutions for small and medium enterprises (PMEs). The application features a single-page design with multiple sections including hero, about, methodology, why choose, FAQ, CTA, and contact sections. The website includes a contact form that allows potential clients to submit inquiries, which are stored in a database for follow-up.
+CodeNode.AI is a modern full-stack web application that serves as a marketing website for a technology consulting company specializing in automation systems and AI solutions for small and medium enterprises (PMEs). The application features a single-page design with multiple sections including hero, about, methodology, why choose, FAQ, CTA, and contact sections. The website includes a contact form that allows potential clients to submit inquiries, which are stored in a database for follow-up. The site focuses specifically on cost reduction, process automation, and efficiency improvements for small and medium businesses.
+
+# Recent Changes
+
+## Content Updates (December 2024)
+- Updated company messaging to focus on cost reduction and process efficiency
+- Changed hero subtitle to emphasize reducing costs of manual and inefficient processes
+- Updated About section to highlight eliminating manual tasks and implementing intelligent systems
+- Modified methodology steps to focus on identifying bottlenecks and cost optimization
+- Revised Why Choose section to emphasize concrete results and cost reduction
+- Updated FAQ responses to be more concise and direct
+- Changed CTA messaging to emphasize cost reduction and efficiency
+- Updated contact information with real WhatsApp number and social media links
+- Modified footer tagline to emphasize cost reduction for SMEs
+- All contact buttons now link directly to WhatsApp (+55 48 9197-4158)
+
+## Visual Improvements
+- Uniformized card heights in the "Como Funciona" section (400px minimum height)
+- Improved flexbox layout for better content distribution
+- Enhanced card responsiveness and visual balance
 
 # User Preferences
 

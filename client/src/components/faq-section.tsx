@@ -10,23 +10,23 @@ export default function FAQSection() {
   const faqs = [
     {
       question: "Preciso ter conhecimento técnico para usar um sistema da CodeNode?",
-      answer: "Não. Nossos sistemas são desenvolvidos para serem simples, claros e fáceis de usar no dia a dia."
+      answer: "Não. Nossos sistemas são simples e fáceis de usar no dia a dia."
     },
     {
       question: "Quanto tempo leva para implementar um sistema?",
-      answer: "Depende da complexidade do projeto, mas sempre buscamos entregas rápidas e funcionais desde as primeiras etapas."
+      answer: "Depende da complexidade, mas sempre buscamos entregas rápidas e funcionais."
     },
     {
       question: "E se eu não precisar de IA agora?",
-      answer: "Sem problema. Podemos desenvolver sistemas apenas de automação. A IA só entra quando faz sentido para o seu negócio."
+      answer: "Sem problema. Nossos sistemas podem ser apenas de automação. A IA só é aplicada quando faz sentido."
     },
     {
       question: "Posso evoluir o sistema no futuro?",
-      answer: "Sim. Nossos sistemas são pensados para crescer junto com sua empresa."
+      answer: "Sim. Nossos sistemas são escaláveis e crescem junto com o seu negócio."
     },
     {
       question: "Quem mantém o sistema funcionando?",
-      answer: "Nós oferecemos suporte e manutenção contínua para que tudo funcione de forma estável e segura."
+      answer: "A CodeNode oferece suporte e manutenção contínua para garantir estabilidade e segurança."
     }
   ];
 

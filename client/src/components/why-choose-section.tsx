@@ -8,29 +8,29 @@ export default function WhyChooseSection() {
   const features = [
     {
       icon: Building,
-      title: "Feito para PMEs",
-      description: "Entendemos suas prioridades e seu ritmo.",
+      title: "Foco em PMEs",
+      description: "Entendemos sua realidade e prioridades.",
       color: "bg-tech-blue/20",
       iconColor: "text-tech-blue"
     },
     {
       icon: Puzzle,
       title: "Soluções sob medida",
-      description: "Não vendemos pacotes genéricos, mas sistemas adaptados à sua realidade.",
+      description: "Sistemas que se adaptam ao seu contexto.",
       color: "bg-tech-green/20",
       iconColor: "text-tech-green"
     },
     {
       icon: TrendingUp,
-      title: "Resultados práticos",
-      description: "O objetivo é otimizar processos e reduzir desperdícios.",
+      title: "Resultados concretos",
+      description: "Menos custos, mais eficiência.",
       color: "bg-tech-purple/20",
       iconColor: "text-tech-purple"
     },
     {
       icon: ArrowUpRight,
       title: "Escalabilidade",
-      description: "Começamos simples e crescemos junto com o seu negócio.",
+      description: "Começamos simples e evoluímos junto com sua empresa.",
       color: "bg-gradient-to-r from-tech-blue to-tech-purple/20",
       iconColor: "text-white"
     }
@@ -59,7 +59,7 @@ export default function WhyChooseSection() {
             transition={{ duration: 0.8, delay: 0.2 }}
             data-testid="why-choose-description"
           >
-            Sabemos que pequenas e médias empresas enfrentam desafios diferentes das grandes corporações. É por isso que a CodeNode foi criada: para ser parceira estratégica no uso da tecnologia de forma prática e personalizada.
+            A CodeNode foi criada para ajudar pequenas e médias empresas a modernizar seus processos com tecnologia acessível. Nosso compromisso é entregar sistemas que realmente tragam retorno através da redução de custos e aumento da eficiência.
           </motion.p>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">

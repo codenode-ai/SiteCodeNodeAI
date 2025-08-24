@@ -59,7 +59,7 @@ export default function Header() {
             </button>
             
             <Button 
-              onClick={() => scrollToSection('contato')}
+              onClick={() => window.open('https://wa.me/554891974158', '_blank')}
               className="bg-gradient-to-r from-tech-blue to-tech-purple px-6 py-2 rounded-full hover:shadow-lg hover:shadow-tech-blue/25 transition-all duration-300"
               data-testid="button-contact"
             >
@@ -110,7 +110,7 @@ export default function Header() {
                 Contato
               </button>
               <Button 
-                onClick={() => scrollToSection('contato')}
+                onClick={() => window.open('https://wa.me/554891974158', '_blank')}
                 className="bg-gradient-to-r from-tech-blue to-tech-purple px-6 py-2 rounded-full hover:shadow-lg hover:shadow-tech-blue/25 transition-all duration-300 w-fit"
                 data-testid="mobile-button-contact"
               >
