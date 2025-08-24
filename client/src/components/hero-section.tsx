@@ -70,7 +70,7 @@ export default function HeroSection() {
               data-testid="button-methodology"
             >
               <ArrowRight className="mr-2" />
-              Saiba mais
+              Ver o processo
             </Button>
           </motion.div>
         </div>
