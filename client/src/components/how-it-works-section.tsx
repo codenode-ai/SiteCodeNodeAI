@@ -47,18 +47,20 @@ export default function HowItWorksSection() {
             {steps.map((step, index) => (
               <motion.div 
                 key={step.number}
-                className="text-center group"
+                className="text-center group h-full"
                 initial={{ opacity: 0, y: 50 }}
                 animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
                 transition={{ duration: 0.6, delay: index * 0.2 }}
                 data-testid={`step-${step.number}`}
               >
-                <div className="glass p-8 rounded-3xl mb-6 group-hover:shadow-2xl group-hover:shadow-tech-blue/20 transition-all duration-500">
-                  <div className={`w-20 h-20 bg-gradient-to-r ${step.color} rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300`}>
-                    <span className="text-3xl font-bold">{step.number}</span>
+                <div className="glass p-8 rounded-3xl mb-6 group-hover:shadow-2xl group-hover:shadow-tech-blue/20 transition-all duration-500 h-full flex flex-col justify-between min-h-[400px]">
+                  <div>
+                    <div className={`w-20 h-20 bg-gradient-to-r ${step.color} rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300`}>
+                      <span className="text-3xl font-bold">{step.number}</span>
+                    </div>
+                    <h3 className="text-2xl font-semibold mb-4">{step.title}</h3>
                   </div>
-                  <h3 className="text-2xl font-semibold mb-4">{step.title}</h3>
-                  <p className="text-muted-gray leading-relaxed">
+                  <p className="text-muted-gray leading-relaxed flex-grow flex items-center justify-center">
                     {step.description}
                   </p>
                 </div>
